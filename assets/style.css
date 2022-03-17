@@ -54,3 +54,13 @@ h2 {
   border-style: solid;
   border-width: 3px;
 }
+
+/* added media query */
+@media (max-width: 500px) {
+  header {
+    color: firebrick;
+  }
+
+@media (max-width: 500px)
+  
+}
