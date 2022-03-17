@@ -6,6 +6,7 @@ header {
     background-color: #212180;
     color: rgb(205, 221, 255);
     border: solid black;
+    justify-content: center;
 }
     
 
@@ -13,17 +14,19 @@ body {
 background-color: rgb(11, 18, 82);
 }
 
-
-.btn {
-  background-color:  #2e2e94;
-  border: solid rgb(205, 221, 255);
-  color: white;
-  padding: 12px 16px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  cursor: pointer;
+/* added pseudo classes */
+button {
+  width: 250px;
+  margin: 0 .5%;
+  font-size: 200%;
+  color:  rgb(205, 221, 255);
+  background-color: #212180;
+  border: 3px solid #000;
 }
-
+button:hover {
+  background-color: #212180;
+  color: rgb(205, 221, 255);
+}
 section {
     padding: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -31,15 +34,26 @@ section {
     color: rgb(205, 221, 255);
     border: solid black;
 }
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
+button:active {
+  font-size: 180%;
+  box-shadow: 0 0 10px #000 inset;
+}
    
   
 
 nav {
   padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #212180;
+    
+  background-color: #212180;
     color: rgb(205, 221, 255);
     border: solid black;
+    display: flex;
+    justify-content: right;
+    margin-top: 5%;
 }
 
 h2 {
@@ -54,13 +68,11 @@ h2 {
   border-style: solid;
   border-width: 3px;
 }
-
 /* added media query */
 @media (max-width: 500px) {
   header {
     color: firebrick;
   }
 
-@media (max-width: 500px)
-  
+
 }
