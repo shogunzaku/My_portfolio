@@ -1,1 +1,1 @@
-# My_portfolio
+This is my updated portfolio, I added two class assignments and my first project week colaberation to my page. Also the Linkedin, Github and resume PDF links had been added to their assigned button.  
